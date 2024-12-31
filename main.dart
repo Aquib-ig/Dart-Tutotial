@@ -1,5 +1,6 @@
 import '21_const_final.dart';
 import '23_static_keyword.dart';
+import '27_inheritence.dart';
 
 void main() {
   // Account? account;
@@ -39,6 +40,11 @@ void main() {
   // calculator.div();
   // print(calculator.div());
 
-  var url = Config.baseUrl;
-  Config.getUrl();
+  // var url = Config.baseUrl;
+  // Config.getUrl();
+  // var content = Content();
+  // print(content);
+
+  var content = Post("Content 1");
+  content.publish();
 }
